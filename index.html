@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Javascript/JQuery</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- js start -->
+
+      <!-- textchange start -->
+      <h1 class="text-success">1. Click the button to change the text</h1>
+
+      <button type="button" class="btn btn-danger" onclick="textChange()">Click here</button>
+
+      <h2 id="h2">Lorem</h2>
+      <!-- textchange end -->
+
+      <!-- date start -->
+      <h1 class="text-success">2. Click the button to check current date</h1>
+
+      <button type="button" class="btn btn-danger" onclick="showDate()">Click here</button>
+
+      <h2 class="h2"></h2>
+      <!-- date end -->
+
+      <!-- js end -->
+       
+
+      <!-- jq start -->
+
+        <!-- hide/show/toggle start -->
+         <h1 class="text-success">3. Click the button to hide/show/toggle the text</h1>
+
+      <button type="button" class="btn btn-danger hide">Hide</button>
+      <button type="button" class="btn btn-danger show">Show</button>
+      <button type="button" class="btn btn-danger toggle">Toggle</button>
+
+      <h3 class="h3">Lorem ipsum dolor sit.</h3>
+
+        <!-- hide/show/toggle end -->
+
+        <!-- fade in/out/toggle start -->
+         <h1 class="text-success">4. Click the button to fadein/fadeout/fadetoggle the text</h1>
+
+      <button type="button" class="btn btn-danger" id="fin">Fade in</button>
+      <button type="button" class="btn btn-danger" id="fout">Fade out</button>
+      <button type="button" class="btn btn-danger" id="ftog">Fade toggle</button>
+      <button type="button" class="btn btn-danger" id="fto">Fade to</button>
+
+      <h4 class="h4">Lorem ipsum dolor sit.</h4>
+
+        <!-- fade hide/show/toggle end -->
+
+        <!-- slide start -->
+        
+        <h1>Click the head to see content</h1>
+        <div class="head">
+          Head
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam sint excepturi soluta, enim aspernatur recusandae cumque nemo, error sequi fugiat dolore impedit quasi. Quis esse vel aut exercitationem repudiandae consequuntur eligendi, iure assumenda delectus atque maxime ab ipsa, ipsum nulla quia voluptas, cumque expedita, tenetur magni deleniti aspernatur nostrum quasi.
+        </div>
+        <!-- slide end -->
+
+        <!-- zoom start-->
+        <h1>5. Click to zoom</h1>
+        <button type="button" class="btn btn-danger" id="bzoom">Click</button>
+        <div id="zoom">
+          Hello!
+        </div>
+        <!-- zoom end-->
+
+      <!-- jq end -->
+
+    </div>
+
+    
+    
+
+    <!-- JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+   
+  </body>
+</html>

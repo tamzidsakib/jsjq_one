@@ -1,0 +1,21 @@
+.head{
+	min-height: 20px;
+	background-color: greenyellow;
+	padding: 20px 50px;
+	cursor: pointer;
+
+}
+.content{
+	background-color: cyan;
+	padding: 20px 50px;
+	display: none;
+}
+
+#zoom{
+
+    background-color: #bca;
+    width: 100px;
+    border: 1px solid green;
+  
+}
+
